@@ -37,3 +37,8 @@ Repositório destinado a adicionar códigos referentes a Data Science e Machine 
 É um algoritmo baseado na **impureza de GINI** para formar uma arvore de decisões com: nó raiz (não possui ancestrais), nós intermediário , folhas (não possuem nós filhos).
 
 [Exemplo Python](https://github.com/marianegri/Python_DataScience_MachineLearning/blob/main/Arvore_decisao_bike.ipynb)
+
+Inteligencia Artificial explicavel, mas muito sensivel a novos dados, então utilizamos várias arvores de decisão juntas chamada **Random Forest** (sabedoria da multidão)
+
+**random forest é um tipo de ensemble learning**
+
