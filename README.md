@@ -4,7 +4,18 @@ Repositório destinado a adicionar códigos referentes a Data Science e Machine 
 ## Códigos exemplos
 * [Numpy](Numpy/Exercicios_Numpy.ipynb)
 * [Pandas](Pandas)
-* [Matplotlib](Matplotlib/Exercicios_Matplotlib.ipynb)
+* [Matplotlib](Matplotlib/Exercicios_Matplotlib.ipynb) : Visualizar é tornar visivel para alguém
+
+## Python para  ciência de dados
+
+Linguagem de programação interpretada.
+Multiparadigmas.
+Guido Van Rossum: criador da linguagem *Python*
+
+Depende de que tipo de dados vamos analisar.
+Usar dados aleatórios para comparar a distribuição dos dados
+
+
 
 ## Aprendizado de maquina
 * Regressão: 
