@@ -2,7 +2,7 @@
 Repositório destinado a adicionar códigos referentes a Data Science e Machine Learning
 
 ## Códigos exemplos
-* [Numpy](Numpy/Exercicios_Numpy.ipynb)
+* [Numpy](Numpy) : Biblioteca eficiente (escrita em C) para armazenamento de dados de mesmo tipo
 * [Pandas](Pandas)
 * [Matplotlib](Matplotlib/Exercicios_Matplotlib.ipynb) : Visualizar é tornar visivel para alguém
 
