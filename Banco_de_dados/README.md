@@ -20,7 +20,7 @@ Propagação muito rápida da versão atual para todos os nodos
 
 ### A: disponibilidade do serviço
 
-### P: Consistência 
+### P: Persistencia 
 
 ## Não relacionais - NOSQL - sem esquema
 ### Chave Valor:
@@ -56,4 +56,6 @@ Propagação muito rápida da versão atual para todos os nodos
 * Persistencia temporaria
 * Compactação: tirar o exesso de registros que não servem mais
 * Muito tipado, usuário pode definir tipos
-* 
+
+### Grafos
+#### [Minimum Spanning Tree](https://github.com/marianegri/Minimum_Spanning_Tree)
