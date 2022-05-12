@@ -1,4 +1,7 @@
 # Banco de dados
+Sistema de Gerência de Banco de Dados - SGDB
+ - CRUD : Create (criar), Read(ler), Update(atualizar), Delete(deletar)
+ - 
 ## Histórico
 * 1959 : Linguagem COBOL (alto nível) direcionada a aplicações do mercado financeiro
 
@@ -22,7 +25,23 @@ Propagação muito rápida da versão atual para todos os nodos
 
 ### P: Persistencia 
 
-## Não relacionais - NOSQL - sem esquema
+## Relacionais - SQL - Com esquema prévio
+Modelo de Dados: 
+- Físico, 
+- Lógico
+   - modelo de um banco de dados relacional
+   - Ex:. Tabelas (colunas, dados adicionados)
+- Conceitual 
+   - Nível mais alto de abstração, 
+   - utilizado nas etapas iniciais de projeto,
+   - Ex:. Entidade-Relacionamento
+Conceitos:
+* Formas Normais
+* Propriedades ACID
+* Transações
+
+
+## Não relacionais - NOSQL - sem esquema prévio
 ### Chave Valor:
  * Base de implementação dos outros BD
  * Valor pode ser qualquer tipo de dado (inclusive outro conjunto de pares chave-valor)
