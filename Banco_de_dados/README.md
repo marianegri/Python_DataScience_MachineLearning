@@ -34,6 +34,11 @@ Modelo de Dados:
 - Conceitual 
    - Nível mais alto de abstração, 
    - utilizado nas etapas iniciais de projeto,
+   - Identificador,
+   - Caradinalidade,
+   - autoralacionamento Ex:. Diciplica = pre requisito (relac)
+   - Generalização/Especialização (Herança),
+   - Entidade Associativa (Para quando queremos associar 3 tabelas num mesmo relacionamento), 
    - Ex:. Entidade-Relacionamento
 Conceitos:
 * Formas Normais
