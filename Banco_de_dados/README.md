@@ -46,13 +46,24 @@ Modelo de Dados:
 Conceitos:
 * Formas Normais
 * Propriedades ACID
+  * Atomicidade
+  * Consistência
+  * Isolamento
+  * Durabilidade 
+* Propriedades BASE
 * Transações
 * Linguagem SQL: Linguagem padronizada
   * DDL: Data Definition Language : CREATE, DROP, ALTER
   * DML: Data Manipulation Language: INSERT, DELETE, UPTADE
 * Consulta :  SELECT, INNER JOIN - Junção interna , OUTER JOIN - Junção externa (LEFT, RIGHT, FULL)
   * (JUNÇÃO CONDICIONAL (_ON_), EQUIJUNÇÃO (NOMES IGUAIS - _USING_), JUNÇÃO NATURAL (_NATURAL JOIN_)) 
-* GROUP BY :  UTILIZAR : COUNT(*), COUNT(EXPRESSÃO), AVG, MIN, MAX
+* GROUP BY | HAVING :  UTILIZAR : COUNT(*), COUNT(EXPRESSÃO), AVG(), MIN(), MAX()
+* Visão (View): tabelas virtuais, definições de subconsultas
+  * CREATE VIEW 
+* Transações : Ações concatenadas : START TRANSACTION ou BEGIN 
+  * PERDA DE ATUALIZAÇÃO, LEITURA SUJA e Linha fantasma : 
+   * solução: **ISOLATION LEVEL** 
+   * CUSTO: Piora a performace
 
 ## Não relacionais - NOSQL - sem esquema prévio
 ### Chave Valor:
