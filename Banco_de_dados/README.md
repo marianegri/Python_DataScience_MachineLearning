@@ -40,14 +40,19 @@ Modelo de Dados:
    - Identificador,
    - Caradinalidade,
    - autoralacionamento Ex:. Diciplica = pre requisito (relac)
-   - Generalização/Especialização (Herança),
+   - Generalização/Especialização (Herança): modelo lógico não tem conhecimento de herança (utilizar chave estrangeira para criar a relação de herança **ou** tabela que abranja toda a hierarquia **ou** criar as tabelas especializadas, apenas as folhas da hierarquia),
    - Entidade Associativa (Para quando queremos associar 3 tabelas num mesmo relacionamento), 
    - Ex:. Entidade-Relacionamento
 Conceitos:
 * Formas Normais
 * Propriedades ACID
 * Transações
-
+* Linguagem SQL: Linguagem padronizada
+  * DDL: Data Definition Language : CREATE, DROP, ALTER
+  * DML: Data Manipulation Language: INSERT, DELETE, UPTADE
+* Consulta :  SELECT, INNER JOIN - Junção interna , OUTER JOIN - Junção externa (LEFT, RIGHT, FULL)
+  * (JUNÇÃO CONDICIONAL (_ON_), EQUIJUNÇÃO (NOMES IGUAIS - _USING_), JUNÇÃO NATURAL (_NATURAL JOIN_)) 
+* GROUP BY :  UTILIZAR : COUNT(*), COUNT(EXPRESSÃO), AVG, MIN, MAX
 
 ## Não relacionais - NOSQL - sem esquema prévio
 ### Chave Valor:
