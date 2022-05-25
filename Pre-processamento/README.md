@@ -11,3 +11,5 @@
 - Tratamento de missing data (dados faltantes)
 - Balanceamento de dados 
 - Redução da dimensionalidade
+
+#### [Pré processamento de dados - Olimpiadas](Pre-processamento/Pre_processamento_Olimpiadas.ipynb)
