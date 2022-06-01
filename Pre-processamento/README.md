@@ -12,4 +12,6 @@
 - Balanceamento de dados 
 - Redução da dimensionalidade (analise de componentes Principais - Graficco de Scree Plot (numeros de componentes principais x autovalor): Ajuda a determinar a melhor quantidade de componentes. Utilizar os componentes principais em que o auto valor é maior que 1)
 
-#### [Pré processamento de dados - Olimpiadas](Pre-processamento/Pre_processamento_Olimpiadas.ipynb)
+#### [Analise de componentes principais para Redução da dimensionalidade](Pre-processamento/Analise_de_componentes_principais_Redução_da_dimensionalidade.ipynb)
+
+#### [Pré processamento de dados (Pivotagem) - Olimpiadas](Pre-processamento/Pre_processamento_Olimpiadas.ipynb)
