@@ -10,6 +10,6 @@
 - Padronização dos dados
 - Tratamento de missing data (dados faltantes)
 - Balanceamento de dados 
-- Redução da dimensionalidade
+- Redução da dimensionalidade (analise de componentes Principais - Graficco de Scree Plot (numeros de componentes principais x autovalor): Ajuda a determinar a melhor quantidade de componentes. Utilizar os componentes principais em que o auto valor é maior que 1)
 
 #### [Pré processamento de dados - Olimpiadas](Pre-processamento/Pre_processamento_Olimpiadas.ipynb)
