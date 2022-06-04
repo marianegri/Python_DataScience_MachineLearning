@@ -15,3 +15,10 @@
 #### [Analise de componentes principais para Redução da dimensionalidade](Analise_de_componentes_principais_Redução_da_dimensionalidade.ipynb)
 
 #### [Pré processamento de dados (Pivotagem) - Olimpiadas](Pre_processamento_Olimpiadas.ipynb)
+
+
+## Técnicas de pré processamento para dados não estruturados
+
+- text analytics
+  - NLP: Processamento de linguagem natural -> Bag-of-words
+  - 
