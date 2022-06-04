@@ -18,7 +18,11 @@
 
 
 ## Técnicas de pré processamento para dados não estruturados
-
+Os principios de pré-processamento de dados não estruturados caminham para levar à uma estruturação.
 - text analytics
   - NLP: Processamento de linguagem natural -> Bag-of-words
   - [Exemplo](TextAnalytics.ipynb)
+- web scraping
+  1. website - semi-estruturados
+  2. scraper - ferramenta que varre o website para estruturar os dados
+  3. datos estruturados
