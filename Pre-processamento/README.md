@@ -21,4 +21,4 @@
 
 - text analytics
   - NLP: Processamento de linguagem natural -> Bag-of-words
-  - 
+  - [Exemplo](TextAnalytics.ipynb)
