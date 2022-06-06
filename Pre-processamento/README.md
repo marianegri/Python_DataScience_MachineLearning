@@ -26,3 +26,4 @@ Os principios de pré-processamento de dados não estruturados caminham para lev
   1. website - semi-estruturados
   2. scraper - ferramenta que varre o website para estruturar os dados
   3. datos estruturados
+  -[Exemplo](Scraper - IMAPI.ipynb)
