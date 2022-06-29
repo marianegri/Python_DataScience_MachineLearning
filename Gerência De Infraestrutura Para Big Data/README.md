@@ -1,6 +1,10 @@
 # Gerência De Infraestrutura Para Big Data
 ## Big Data
-É um termo bastante utilizado atualmente e diretamente ligado ao volume de dados a ser capturado, processado e analisado
+É um termo bastante utilizado atualmente e diretamente ligado ao volume de dados a ser capturado, processado e analisado.
+Além de armazenar e processar é preciso extrair valor.
+Grande volume em relação ao sistema de processamento.
+Dados estruturados e não estruturados.
+Contem diferentes padrões de dados para serem analisados.
 
 ## Data Science
 Prática que envolve métodos científicos, processos e sistemas para extrair conhecimento de dados
