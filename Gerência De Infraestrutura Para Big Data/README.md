@@ -40,4 +40,7 @@ def multiplicador(value:int): int = {
 }
 // Chamando funções
 multiplicador(10)
+
+// Split em caractere duplo (.txt para data frame)
+val movies_df = movdf.rdd.map(r => r.mkString.split("::")).map{case Array(a, b, c) => (a, b, c)}.toDF("Id", "titulo", "genero")
 ~~~
