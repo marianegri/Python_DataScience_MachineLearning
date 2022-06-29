@@ -42,5 +42,6 @@ def multiplicador(value:int): int = {
 multiplicador(10)
 
 // Split em caractere duplo (.txt para data frame)
+al movdf = spark.read.text("/user/maria/movies.dat")
 val movies_df = movdf.rdd.map(r => r.mkString.split("::")).map{case Array(a, b, c) => (a, b, c)}.toDF("Id", "titulo", "genero")
 ~~~
