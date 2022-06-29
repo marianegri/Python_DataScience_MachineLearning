@@ -48,4 +48,8 @@ val movies_df = movdf.rdd.map(r => r.mkString.split("::")).map{case Array(a, b, 
 movies_df.createOrReplaceTempView("movies")
 // Utilizando SQL
 spark.sql("select * from movies").show(false)
+
+// Repartição
+mr.coalesce(1).write.mode("overwrite").parquet("/user/maria/movierating2")  // trafego na rede otimizado
+mr.repartition(1).write.mode("overwrite").parquet("/user/maria/movierating2")
 ~~~
