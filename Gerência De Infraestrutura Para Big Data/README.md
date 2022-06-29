@@ -16,3 +16,28 @@ Atividades de bigdata:
 - Ingestão e transformação dos dados
 - Analise e geração de insights
 
+## Scala
+Linguagem de programação de propósito geral. Type-safe.
+~~~scala
+val nome_variavel = "PUC"   // val é imutavel
+
+var nao_variavel = "PUC"   // var é mutável
+nao_variavel += "RS"
+
+// Definindo o tipo das variaveis
+var exemplo1:String = "PUC"
+var d = 1.234
+var f = 1.344f
+var c:Char = 'm'
+
+// Defininndo funções
+def multiplicador(value:int): int = {
+  if( value % 2 == 0){   // Se o numero for PAR multiplica por 2
+    return value*2
+  } else{
+    return value*3
+  }
+}
+// Chamando funções
+multiplicador(10)
+~~~
