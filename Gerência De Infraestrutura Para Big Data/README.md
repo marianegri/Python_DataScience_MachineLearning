@@ -49,10 +49,24 @@ Atividades de bigdata:
 
 ## HADOOP
 Plataforma de armazenamento e processamento de dados
+Grandes volumes de dados
 Framework que auxilia no processamento distribuído de datasets em clusters e que utiliza modelos simples de programação
 Ecossistema, conjunto de ferramentas.
 - Localidade de dados
 - Dividir para conquistar (shared nothing)
+### Arquitetura HADOOP
+- Cluster YARN : Processamento
+    - Conceitos basicos: modelo mestre-escravo (ResourseManager (principal) e NodeManager(secundário) e AppliccationMaster (responsavel pela aplicação do cluster))
+- Cluster HDFS : Armazenamento
+    -   Conceitos basicos: Muitas ferramentas são em JAVA, modelo mestre-escravo, sistema de aquivos(64 ou 128 MB por bloco, os blocos são distribuidos entre os compuatdores e replicaodos para caso algum falhe seja processado em outra maquina) (Nó principal - NameNode: gerencia os meta dados) (Nó secundário - DataNode)
+
+- Cluster HADOOP : Combina os clusters HDFS e YARN rodando nas mesmas maquinas. Na mesma maquina tem processo pra gerenciar os blocos localmente e outro processo para gerenciar as tarefas que estão processando em cima daqueles blocos.
+
+### Modos de implantação do cluster HADOOP
+- LocalJobRunner: sistemas de arquivos local: Utilizado para teste, identificar bugs, n utiliza HDFS, simula ambiente hadoop
+- PseudoDistribuido: Toda a arquitetura vista acima ocorre na mesma maquina. Simula como um cluster completo funciona
+- Totalmente Distribuido
+
 
 
 
