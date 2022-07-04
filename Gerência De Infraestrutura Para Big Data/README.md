@@ -7,21 +7,55 @@
 - Contem diferentes padrões de dados para serem analisados.
 - Maquinas geram mais dados que as pessoas (leitires de RFID, sensores, gps)
 - Necessário extrair valor
-- Dimensões do Big data : guerra dos Vs: {c:#B81365}Volume, Velocidade, variedade{/c},{c:red} veracidade{/c}, {c:green}variabilidade, visibilidade{\c}, {c:blue}valor{\c}
+- Dimensões do Big data : guerra dos V's: 
+    - 3V's: ``Volume``, ``Velocidade`` (rapidez com que os dados chegam), ``variedade`` (classificação de dados: estruturados e não estruturados), 
+    - 4V's: ``veracidade`` (tem incerteza sobre os dados, separar para conseguir dados uteis e reais), 
+    - 6V's (MicroSoft): ``variabilidade`` (Os padrões podem variar), ``visibilidade``, 
+    - 5V's: ``valor`` (Manter apenas o que traz valor, até quando traz valor?, dados sem ser processados não trazem valor)
 
 ## Data Science
 Prática que envolve métodos científicos, processos e sistemas para extrair conhecimento de dados
 
-## HADOOP
-Framework que auxilia no processamento distribuído de datasets em clusters e que utiliza modelos simples de programação
-Ecossistema, conjunto de ferramentas.
+## Abordagens Tradicionais para armazenamento de dados
+- Os trabalhos em lote são programados para migrar dados para **Data Warehouse** em um período de dia, semana ou mês
+- Os dados têm um esquema e são categorizados como dados estruturados
+- Eles passam por um ciclo de análise para criar conjuntos de dados e extrair informações significativas
+- Ingestão no Data Warehouse são realizadas por meio de operações ETL (Extract, Transform, and Load) - pega dados brutos e processa-os para relatórios e análises
+- Data Warehouse é otimizado somente para relatórios e análise de dados
+- Sistema principal de Bussines Intelligence (BI)
+- Problemas:
+  - Latência (dados não são em tempo real)
+  - Fontes limitadas (depende de dados estruturados)
+  - Escala Limitada: **scale-up** (estou com problema de velocidade compro maquina mais rapida)
+
 
 ## Cluster
 Um cluster consiste em computadores fortemente ligados que trabalham em conjunto, arquitetura distribuida.\
+Características de um cluster computing:
+- Alta Disponibilidade: Várias maquinas, caso uma falhe as outras continuam (com um pouco menos de capacidade de processamento)
+- Fácil escalabilidade: **scale-out**, aumenta a capacidade de recursos adicionando mais computadores
+- Processamento paralelo
+- Hardware de commodity : componentes de prateleira, utilização de hardwares tradicionais com mais baixo custo
+
+### Infraestrutura
+ - Local (on-premises)
+ - Nuvem
+
 Atividades de bigdata:
 - Instalação , manutenção e suporte
 - Ingestão e transformação dos dados
 - Analise e geração de insights
+
+
+## HADOOP
+Plataforma de armazenamento e processamento de dados
+Framework que auxilia no processamento distribuído de datasets em clusters e que utiliza modelos simples de programação
+Ecossistema, conjunto de ferramentas.
+- Localidade de dados
+- Dividir para conquistar (shared nothing)
+
+
+
 
 ## Scala
 Linguagem de programação de propósito geral. Type-safe.
